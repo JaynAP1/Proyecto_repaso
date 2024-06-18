@@ -1,0 +1,86 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(img/Fondo@2x.png);
+    background-size: cover;
+    background-position: 0em 6em;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.CBarraS{
+    z-index: 2;
+    position: fixed;
+    width: 102%;
+    left: -2%;
+    top: -1%;
+    background-color: #157FFB;
+    display: flex;
+    justify-content:space-around;
+    height: 4.5em;
+    color: white;
+    padding-top: 1.7em;
+    font-size: 1.2em;
+}
+.CBarraS a{
+    background-color: white;
+    border-radius: 2em;
+    padding: 0.4em 2.5em;
+    text-decoration: none;
+    color: black;    
+}
+.Consulta{
+    background-color: white;
+    height: 45em;
+    width: 30em;
+    margin-top: 11em;
+    margin-left: 7em;
+    border-radius: 1.5em;
+    padding-top: 0.2em;
+}
+
+.CConsulta label{
+    font-size: 1em;
+    position: relative;
+    left: 2.5em;
+    border-color: gray;
+}
+.CConsulta input{
+    width: 30em;
+    height: 2em;
+    margin-bottom: 1em;
+    position: relative;
+    left: 3em;
+}
+#Att{
+    text-align: center;
+    font-size: 1.5em;
+}
+#Att2{
+    text-align: center;
+}
+.CConsulta a{
+    background-color: #157FFB;
+    border-radius: 0.7em;
+    padding: 0.8em 3.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10em;
+    top: 2.5em;
+}
+.Conocer{
+    margin-top: -28em;
+    margin-left: 45em;
+    text-align: center;
+}
+.Conocer a{
+    background-color: #157FFB;
+    border-radius: 0.7em;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 1.5em;
+}
+#Ingreso{
+    font-size: 1.5em;
+}
