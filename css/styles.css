@@ -191,6 +191,15 @@ body{
     overflow: hidden;
     text-align: center;
 }
+.Frecuentes h6{
+    background-color: #3265cc;
+    border-radius: 50%;
+    width: 5em;
+    height: 3.2em;
+    padding-top: 2em;
+    color: white;
+    margin-left: 47em;
+}
 .MoreQ{
     overflow: hidden;
     height: 18em;
