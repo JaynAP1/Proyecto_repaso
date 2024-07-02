@@ -1,7 +1,7 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-image: url(img/Fondo@2x.png);
-    background-size: cover;
+    background-size: 100%;
     height: 50em;
     background-position: 0em 6em;
     background-repeat: no-repeat;
@@ -9,11 +9,9 @@ body{
 }
 .Bloquep{
     width: 100%;
-}
-.Cuerpo{
     overflow: hidden;
-    height: 57em;
 }
+
 .CBarraS{
     z-index: 2;
     position: fixed;
@@ -39,12 +37,18 @@ body{
     width: 10em;
     margin-top: -0.5em;
 }
+.Cuerpo{
+    overflow: hidden;
+    margin-top: 10em;
+    height: 80em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .Consulta{
     background-color: white;
     height: 45em;
     width: 30em;
-    margin-top: 11em;
-    margin-left: 7em;
     border-radius: 1.5em;
     padding-top: 0.2em;
 }
@@ -81,9 +85,8 @@ body{
     top: 2.5em;
 }
 .Conocer{
-    margin-top: -28em;
-    margin-left: 45em;
     text-align: center;
+    
 }
 .Conocer a{
     background-color: #157FFB;
@@ -99,7 +102,12 @@ body{
 }
 .Ques{
     overflow: hidden;
-    height: 45em;
+    height: -45vw;
+}
+.Contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .titulo{
     text-align: center;
@@ -108,21 +116,20 @@ body{
 .textico{
     display: flex;
     font-size: 1.2em;
-    width: 120em;
     margin-top: 2em;
-    margin-left: 8em;
-    line-height: 1.7em;  
+    margin-left: 5vw;
+    line-height: 1.7em;
 }
 .textico p{
     text-align: center;
 }
-.textico img{
+.imgCaja img{
     width: 35em;
     height: 25em;
-    margin-top: -2em;
 }
+
 .Conocerb1{
-    margin-left: 18em;
+    margin-left: 15vw;
 }
 .Conocerb1 p{
     margin-bottom: 0.1em;
@@ -132,11 +139,12 @@ body{
 }
 .Entregas{
     overflow: hidden;
-    height: 40em;
+    height: -50vw;
 }
 .Etapas{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .Titulo{
     text-align: center;
@@ -179,7 +187,7 @@ body{
     margin-top: 9em;
 }
 .Conocerb2{
-    margin-left: 37em;
+    margin-left: 45vw;
 }
 .Conocerb2 p{
     margin-bottom: 0.1em;
@@ -206,7 +214,7 @@ body{
 }
 .More{
     background-color: #157FFB;
-    width: 70em ;
+    width: 70vw ;
     text-align: center;
     padding: 1em 4em 2em 2em;
     border-radius: 2em;
@@ -226,7 +234,7 @@ body{
 }
 .Final{
     display: flex;
-    width: 83em;
+    width: 100vw;
     height: 8em;
     background-color: #3265cc;
     justify-content: space-evenly;
