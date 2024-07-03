@@ -2,7 +2,7 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-image: url(img/Fondo@2x.png);
     background-size: 100%;
-    height: 50em;
+    height: 50vw;
     background-position: 0em 6em;
     background-repeat: no-repeat;
     width: 100%;
@@ -26,6 +26,9 @@ body{
     padding-top: 1.7em;
     font-size: 1.2em;
 }
+.CBarraS i{
+    display: none;
+}
 .CBarraS a{
     background-color: white;
     border-radius: 2em;
@@ -40,7 +43,7 @@ body{
 .Cuerpo{
     overflow: hidden;
     margin-top: 10em;
-    height: 80em;
+    height: 50em;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -86,7 +89,7 @@ body{
 }
 .Conocer{
     text-align: center;
-    
+    text-shadow:  1px 1px 13px black;
 }
 .Conocer a{
     background-color: #157FFB;
@@ -129,10 +132,12 @@ body{
 }
 
 .Conocerb1{
-    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
 }
-.Conocerb1 p{
-    margin-bottom: 0.1em;
+.Conocerb1 a{
+    text-decoration: none;
+    color: black;
 }
 .Conocerb1 i{
     margin-left: 6em;
@@ -187,10 +192,13 @@ body{
     margin-top: 9em;
 }
 .Conocerb2{
-    margin-left: 45vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
 }
-.Conocerb2 p{
-    margin-bottom: 0.1em;
+.Conocerb2 a{
+    text-decoration: none;
+    color: black;
 }
 .Conocerb2 i{
     margin-left: 4em;
@@ -208,6 +216,15 @@ body{
     color: white;
     margin-left: 48%;
 }
+.Vermas{
+    display: flex;
+    flex-direction: column;
+}
+.Vermas a{
+    text-decoration: none;
+    color: black ;
+}
+
 .MoreQ{
     overflow: hidden;
     height: 18em;
@@ -248,4 +265,42 @@ body{
     color:#3265cc;
     background-color: white;
     border-radius: 50%;
+}
+@media screen and  (max-width: 887px){
+    .Cuerpo{
+        height: 60em;
+    }
+    .Conocer{
+        margin-top: -7em;
+        text-shadow: none;
+    }
+}
+@media screen and  (max-width: 700px){}
+    .CBarraS i{
+        display: flex;
+        align-items: center;
+    }
+    .CBarraS p{
+        display: none;
+    }
+    .CBarraS img{
+        width: 10em;
+        height: 2em;
+        margin-top: -0.5em;
+    }
+
+@media  screen and (max-width:960px) {
+    .Etapa3 img{
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width:640px){
+    .Etapa1 img{
+        margin-top: 1em;
+    }
+}
+@media screen and (max-width:900px){
+    .Final{
+        font-size:  0.5em;
+    }
 }
